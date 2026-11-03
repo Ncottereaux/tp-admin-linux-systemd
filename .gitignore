@@ -1,0 +1,5 @@
+**/shadow*
+**/gshadow*
+**/ssh_host_*
+**/machine-id
+*.old

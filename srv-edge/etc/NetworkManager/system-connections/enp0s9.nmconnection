@@ -1,0 +1,17 @@
+[connection]
+id=enp0s9
+uuid=3acb52b7-d22d-4a84-a226-8e36c1efa181
+type=ethernet
+autoconnect=false
+interface-name=enp0s9
+
+[ethernet]
+
+[ipv4]
+method=auto
+
+[ipv6]
+addr-gen-mode=eui64
+method=auto
+
+[proxy]

@@ -1,0 +1,17 @@
+[connection]
+id=enp0s10
+uuid=58348628-4837-4af2-88c0-49794dcb3aad
+type=ethernet
+autoconnect=false
+interface-name=enp0s10
+
+[ethernet]
+
+[ipv4]
+method=auto
+
+[ipv6]
+addr-gen-mode=eui64
+method=auto
+
+[proxy]
