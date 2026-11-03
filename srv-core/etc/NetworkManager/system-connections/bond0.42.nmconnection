@@ -1,0 +1,27 @@
+[connection]
+id=bond0.42
+uuid=4b193c1a-5f09-47f8-9e91-6552b0958b6b
+type=vlan
+interface-name=bond0.42
+timestamp=1793632098
+
+[ethernet]
+
+[vlan]
+flags=1
+id=42
+parent=bond0
+
+[ipv4]
+address1=10.42.42.10/24
+method=manual
+never-default=true
+route-table=42
+route1=0.0.0.0/0,10.42.42.254
+routing-rule1=priority 100 from 10.42.42.10 table 42
+
+[ipv6]
+addr-gen-mode=default
+method=disabled
+
+[proxy]

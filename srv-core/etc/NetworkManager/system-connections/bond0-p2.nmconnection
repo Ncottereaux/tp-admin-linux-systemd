@@ -1,0 +1,11 @@
+[connection]
+id=bond0-p2
+uuid=d71554dc-f3ec-4a75-8b51-7185768755ca
+type=ethernet
+controller=bond0
+interface-name=enp0s10
+port-type=bond
+
+[ethernet]
+
+[bond-port]
