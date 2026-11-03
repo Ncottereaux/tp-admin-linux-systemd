@@ -3,3 +3,7 @@
 **/ssh_host_*
 **/machine-id
 *.old
+**/.pwd.lock
+**/.updated
+**/sysconfig/anaconda
+**/systemd/system/dbus*.service
