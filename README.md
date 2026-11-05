@@ -40,3 +40,14 @@ Ce document rassemble l'ensemble des preuves de configuration et de conformité 
   systemctl status helios-suivi-publish.service
 
 - **Supervision Zabbix (E8)** : L'agent `zabbix-agent2` est configuré et actif en local sur `srv-core`. Testé via `zabbix_get -s 127.0.0.1 -k system.cpu.load[all,avg1]`.
+
+## Arborescence du dépôt
+
+```text
+.
+├── README.md
+├── scripts/
+│   └── helios-suivi-publish.sh
+└── systemd/
+    ├── helios-suivi-publish.service
+    └── helios-suivi-publish.timer
