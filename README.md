@@ -31,3 +31,10 @@ Ce document rassemble l'ensemble des preuves de configuration et de conformité 
   # Commande de vérification de la politique d'expiration :
   chage -l lea
   # Expiration mdp: 90j, Min: 1j, Alerte: 14j, Inactivité: 7j
+
+### 3. Automatisation et Services (E3, E4)
+- **Script exécutable** : `/usr/local/bin/helios-suivi-publish.sh` (`chmod +x`).
+- **Commandes de vérification et statut des unités Systemd** :
+  ```bash
+  systemctl status helios-suivi-publish.timer
+  systemctl status helios-suivi-publish.service
